@@ -9,6 +9,7 @@ Bundle 'kien/ctrlp.vim'
 set nocompatible
 syntax on
 filetype on
+filetype plugin indent on
 
 set clipboard=unnamed
 
@@ -56,6 +57,11 @@ let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'ra'
 let g:ctrlp_show_hidden = 1
+
+if exists("g:ctrl_user_command")
+  unlet g:ctrlp_user_command
+endif
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*/vendor/*,*/\.git/*
 
 let g:SimplenoteUsername="achiu8@gmail.com"
 let g:SimplenotePassword="simplenote"
