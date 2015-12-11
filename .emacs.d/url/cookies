@@ -1,0 +1,73 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '((".clojuredocs.org"
+  [url-cookie "__cfduid" "d6d3b72a90063282e94513132731e50651448426336" "24 Nov 16 04:38:56 [GMT]" "/" ".clojuredocs.org" nil]
+  [url-cookie "HttpOnly" nil "24 Nov 16 04:38:56 [GMT]" "/" ".clojuredocs.org" nil])
+ (".reddit.com"
+  [url-cookie "__cfduid" "d356ca18cc43de6b214e482c4f095639e1448426428" "24 Nov 16 04:40:28 [GMT]" "/" ".reddit.com" nil]
+  [url-cookie "HttpOnly" nil "24 Nov 16 04:40:28 [GMT]" "/" ".reddit.com" nil])
+ ("www.wealthfront.com"
+  [url-cookie "t-token" "agud0fbxoe1og.iyrtht" "Sat, 25 Nov 2017 04:45:37 -0000" "/" "www.wealthfront.com" nil]
+  [url-cookie "homepage_alternate_copy_2015_10_29" "alternate" "Fri, 25 Mar 2016 03:45:01 -0000" "/" "www.wealthfront.com" nil]
+  [url-cookie "pretax_risk_questionnaire_2015_10_09" "pretax_questionnaire" "Fri, 25 Mar 2016 03:45:37 -0000" "/" "www.wealthfront.com" nil]
+  [url-cookie "questionnaire_plan_redesign_2015_11_19" "control" "Fri, 25 Mar 2016 03:45:37 -0000" "/" "www.wealthfront.com" nil])
+ (".ycombinator.com"
+  [url-cookie "__cfduid" "dd44f1dc23fd0a74fbccc1261c23a93d41448426809" "24 Nov 16 04:46:49 [GMT]" "/" ".ycombinator.com" nil]
+  [url-cookie "HttpOnly" nil "24 Nov 16 04:46:49 [GMT]" "/" ".ycombinator.com" nil])
+ (".pocketjavascript.com"
+  [url-cookie "SS_MID" "799775a2-f65e-4486-ba3a-b9a9b66513adihebxy4f" "22-Nov-2025 04:47:19.00 GMT" "/" ".pocketjavascript.com" nil])
+ (".bing.com"
+  [url-cookie "SRCHD" "AF=NOFORM" "25-Nov-2017 04:49:23.00 GMT" "/" ".bing.com" nil]
+  [url-cookie "SRCHUSR" "DOB=20151125" "25-Nov-2017 04:49:23.00 GMT" "/" ".bing.com" nil])
+ ("www.bing.com"
+  [url-cookie "SRCHUID" "V=2&GUID=04E66B0073074E3B89E00D2EB243503F" "25-Nov-2017 04:49:23.00 GMT" "/" "www.bing.com" nil]
+  [url-cookie "MUIDB" "047D3A8908016A0E011F32E309446BEB" "24-Nov-2017 04:49:23.00 GMT" "/" "www.bing.com" nil]
+  [url-cookie "httponly" nil "24-Nov-2017 04:49:23.00 GMT" "/" "www.bing.com" nil])
+ ("bing.com"
+  [url-cookie "httponly" nil "24-Nov-2017 04:49:23.00 GMT" "/" "bing.com" nil]
+  [url-cookie "_EDGE_V" "1" "24-Nov-2017 04:49:23.00 GMT" "/" "bing.com" nil]
+  [url-cookie "MUID" "047D3A8908016A0E011F32E309446BEB" "24-Nov-2017 04:49:23.00 GMT" "/" "bing.com" nil])
+ (".atlassian.com"
+  [url-cookie "__atl_path" "172.26.26.14.1448427054195520" "22 Nov 25 04:50:54 [GMT]" "/" ".atlassian.com" nil])
+ (".stackoverflow.com"
+  [url-cookie "__cfduid" "dc2d141a06626a3ff91b56e5ffcc695581448427177" "24 Nov 16 04:52:57 [GMT]" "/" ".stackoverflow.com" nil]
+  [url-cookie "HttpOnly" nil "01-Jan-2055 00:00:00.00 GMT" "/" ".stackoverflow.com" nil]
+  [url-cookie "prov" "bf19532f-4422-460c-a3ec-d62740eb9cbc" "01-Jan-2055 00:00:00.00 GMT" "/" ".stackoverflow.com" nil])
+ (".soundcloud.com"
+  [url-cookie "sc_anonymous_id" "579723-332195-349255-702383" "Sat, 22 Nov 2025 04:55:34 GMT" "/" ".soundcloud.com" nil])
+ (".google.com"
+  [url-cookie "PREF" "ID=1111111111111111:FF=0:TM=1448426002:LM=1448426002:V=1:S=U6_xDLZgcgcv4v9w" "31-Dec-2015 16:02:17.00 GMT" "/" ".google.com" nil]
+  [url-cookie "NID" "73=hlQHmxjrYaorwdWwH7bcCkDJr_Nx5M2IyLaekHmPWrG3AdM4PGQKprmP5qrNgZjE42u54wGQJF1OxZQ1mOvpWNxf7Kekf9z61-eFYJr5XgLrdLEEejBIikavBPa1IoJBvRhr6Wq8Agaysc1ED8PY4X8ZtRxOIDZOan1X3THfVddWnHvYxuPhOJx-K0lkzfT_SoDUFkDQY3RQqB3NBtbuI1JNOLfiZxRCSy91tWE6lBKEkDyzK6-i9M7FcsGhiCzX7csKpC0" "26-May-2016 04:55:52.00 GMT" "/" ".google.com" nil]
+  [url-cookie "HttpOnly" nil "24-Nov-2017 04:56:00.00 GMT" "/" ".google.com" nil]
+  [url-cookie "SID" "DQAAAAUBAABlzxMdfmHIi5Z101Nu7_fMFEHSmm6dm_rMhocN18mYDPS-ctQdN0NUcFOZ6kULS2QwQr3YBbvFqCbf-WCPHaKZRzF2BUuP8xz2JIQhFWUMS5B8R83Dk25z7SmsPFJ3pcrKferEjw4RzLz4hWzahspO36Vt6MIaZuplCoL77IccEGTkrO_inDpH50X2rmgMSpl00dHfD5tyt8XW2YMzl2sBDnrH9woiX6aeZJ-3efsJfwAoVLf5j27Lm3dPFg3Os-W5mvXXFuGTcDMtEhyQhg0ArkVVtEW3pmoa_J3TIGuSo6iHR2Yi5nsUiFlhxmopMGDprkvpVNcOS-yDXEm4_b8d7TrufkylBrvncoY4QMGT5Q" "24-Nov-2017 04:56:00.00 GMT" "/" ".google.com" nil]
+  [url-cookie "HSID" "AGcDbhaf-Uaze7APf" "24-Nov-2017 04:56:00.00 GMT" "/" ".google.com" nil]
+  [url-cookie "Priority" "HIGH" "24-Nov-2017 04:56:00.00 GMT" "/" ".google.com" nil]
+  [url-cookie "APISID" "uhX2ArESUxqFCsAl/A3tzcf__r_6SPvH-k" "24-Nov-2017 04:56:00.00 GMT" "/" ".google.com" nil]))
+)
+(setq url-cookie-secure-storage
+ '(("github.com"
+  [url-cookie "HttpOnly" nil "Wed, 09 Dec 2015 04:44:48 -0000" "/" "github.com" t]
+  [url-cookie "user_session" "cUMPf3gtsGbhqnO941N8eKxKdeiAGYKeLIUOfjq49LSCU6iFVlU8wEuNzbyukw8K-n7OdtZZVxjtxBfl" "Wed, 09 Dec 2015 04:44:48 -0000" "/" "github.com" t])
+ ("accounts.google.com"
+  [url-cookie "GAPS" "1:_nVmnll4pC-HchW2STl2C-iXLxTYbA:fVHWMXffxW5-WbHu" "24-Nov-2017 04:56:00.00 GMT" "/" "accounts.google.com" t]
+  [url-cookie "HttpOnly" nil "24-Nov-2017 04:56:00.00 GMT" "/" "accounts.google.com" t]
+  [url-cookie "Priority" "HIGH" "24-Nov-2017 04:56:00.00 GMT" "/" "accounts.google.com" t]
+  [url-cookie "LSID" "mail|o.mail.google.com|ss:DQAAAAcBAAAUUaf0qGB1JMrggBzx40tDHn4Wz63iGDy3lUDJt3M6XRvuk3gW6cFK17j921qdnTuMkU1_4JdbuuFt50JS0IEIQ5ATqRPytwdomZrhRLDoZ2xzcbIdjhBqMV7XPxaMIWjPXiZGJAtoaDpaJWVFJ4Qv-J18JHx-Wweo6VJNdmdRo_oPAHPiyE9gL7xZNkXbRZdfiAHjp7btHRiyeCahPvtdpIOREZOc1nChBc4yD3BVmJH0_RKQ2JkWmIuQNPWf7bVuyztQjGlaenReYOXZhq49_HyfwEPBu29LdXbfkB2rfAohEfyEl2-AJjC3MDJQF0RzNK4cnkW5uanc4nhP_ekscCjpJma7Y8_4QXKcesWOhw" "24-Nov-2017 04:56:00.00 GMT" "/" "accounts.google.com" t]
+  [url-cookie "ACCOUNT_CHOOSER" "AFx_qI7eb3G0b64YmyIWujrMd5lK157zOui9BeRN6Y4z2o73RNdCHK8ahDM9bFFg4GgEBvlqaM_v1qajPaDDsM9_kVh6c6DlXkjQUA2rXEWPqT5G4SHPbCSZWsKjgpcWF2STPKuVN_NA" "24-Nov-2017 04:55:52.00 GMT" "/" "accounts.google.com" t])
+ (".google.com"
+  [url-cookie "SSID" "AhsYMJKxzN0GiubqL" "24-Nov-2017 04:56:00.00 GMT" "/" ".google.com" t]
+  [url-cookie "HttpOnly" nil "24-Nov-2017 04:56:00.00 GMT" "/" ".google.com" t]
+  [url-cookie "Priority" "HIGH" "24-Nov-2017 04:56:00.00 GMT" "/" ".google.com" t]
+  [url-cookie "SAPISID" "LXl4OVQnxDgVK3Gc/ArBvBTIM0f3jDDphL" "24-Nov-2017 04:56:00.00 GMT" "/" ".google.com" t])
+ (".github.com"
+  [url-cookie "logged_in" "yes" "Sun, 25 Nov 2035 04:44:40 -0000" "/" ".github.com" t]
+  [url-cookie "HttpOnly" nil "Sun, 25 Nov 2035 04:44:40 -0000" "/" ".github.com" t]
+  [url-cookie "dotcom_user" "achiu8" "Sun, 25 Nov 2035 04:44:40 -0000" "/" ".github.com" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:
