@@ -17,6 +17,8 @@ export PATH="$(brew --prefix git)/bin:$PATH"
 eval "$(rbenv init -)"
 source ~/git-completion.bash
 
+stty -ixon
+
 alias bp="vim ~/.bash_profile"
 alias br=". ~/.bash_profile"
 
@@ -25,9 +27,13 @@ alias la="ls -lah"
 alias lrt="ls -lrth"
 
 alias air="/System/Library/PrivateFrameworks/Apple80211.framework/Versions/Current/Resources/airport"
-alias wf="networksetup -setairportnetwork en0"
-alias wfn="networksetup -setairportpower en0 on"
-alias wff="networksetup -setairportpower en0 off"
+alias wf="air -I"
+alias wflist="air -s | sort"
+alias wfjoin="networksetup -setairportnetwork en0"
+alias wfon="networksetup -setairportpower en0 on"
+alias wfoff="networksetup -setairportpower en0 off"
+
+alias power="pmset -g batt"
 
 alias sfe="cd $SANTAFE_HOME"
 alias back="cd $BACKEND_HOME"
@@ -36,8 +42,9 @@ alias klip="cd $KLIP_HOME"
 alias shiny="cd $SHINY_HOME"
 alias design="cd $DESIGN_HOME"
 alias roswell="cd $ROSWELL_HOME"
+alias pos="cd ~/misc/pos"
 
-alias glados="ssh glados.wlth.fr"
+alias sv209="ssh sv209.wlth.fr"
 
 alias ga="git add -p"
 alias gb="git branch"
@@ -53,21 +60,40 @@ alias gmm="git merge master"
 alias gcb="git checkout -b"
 alias gcp="git checkout -p"
 alias grh="git reset HEAD ."
+alias grh1="git reset HEAD~1"
 alias gpo="git push origin "
 alias gall="git add -A"
 alias gxx="git checkout -- ."
 alias gc-="git checkout -"
+alias gopmm="go && gp && gc- && gmm"
+alias gclean="git branch --merged | grep -v '\*' | grep -v master | xargs -n1 git branch -D"
+alias gbrowse="~/scripts/browse pull-requests"
+alias gmerged="~/scripts/browse merged"
+alias gbranch="~/scripts/browse branch"
+alias gbranches="~/scripts/browse branches"
+alias gcommits="~/scripts/browse commits"
 alias rmfake="git checkout app/views/fake"
 
-alias cs="~/changed_specs"
+alias cs="~/scripts/changed_specs"
 
-alias ud="sudo make bundler && sudo make npm"
+alias ud="sudo make bundler && sudo make npm && sudo make update-config-properties"
 alias rh="rbenv rehash"
-
 alias fs="sudo forego start"
+alias rs="ud && rh && fs"
+
 alias rc="bundle exec rails c"
 alias rr="bundle exec rake routes"
 alias ms="./moarspec"
+
+realpath() {
+  [[ $1 = /* ]] && echo "$1" || echo "$PWD/${1#./}"
+}
+
+run_test_karma_module_file() {
+  sudo npm run test-karma-module-file -- --file=$(realpath $1)
+}
+
+alias tkf=run_test_karma_module_file
 
 alias taoss="./mvn-exec $BACKEND_HOME rails s -p 3001"
 alias taosc="./mvn-exec $BACKEND_HOME rails c"
@@ -95,3 +121,5 @@ export SC_CLIENT_ID="34bf73c0f03752169bc7f0b45a2d6b5b"
 
 alias yt="mpsyt"
 alias sc="ruby ~/misc/soundcloud2000/bin/soundcloud2000"
+
+alias q="~/misc/hs/google.hs"

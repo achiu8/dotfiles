@@ -75,10 +75,12 @@ nnoremap <leader>r :execute "set relativenumber"<CR>
 nnoremap <leader>. :noh<CR>
 nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>
+nnoremap <leader>z :qa<CR>
 nnoremap <leader>e :Explore<CR>
 
 command! CopyFilepath !echo -n "%" | pbcopy
 nnoremap <leader>f :CopyFilepath<CR>
+vnoremap <leader>c :w !pbcopy<CR>
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
