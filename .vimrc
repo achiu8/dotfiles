@@ -1,17 +1,18 @@
-set rtp+=~/.vim/bundle/Vundle.vim " add vundle to run time path
-call vundle#rc()
-Bundle 'gmarik/vundle'
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'git://github.com/sjl/badwolf.git'
-Bundle 'git://github.com/jonathanfilip/vim-lucius.git'
-Bundle 'kien/ctrlp.vim'
-Bundle 'pangloss/vim-javascript'
-Bundle 'rking/ag.vim'
-Bundle 'git://github.com/tpope/vim-surround.git'
-
-execute pathogen#infect()
-
 set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim " add vundle to run time path
+call vundle#begin()
+Plugin 'gmarik/Vundle.vim'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'git://github.com/sjl/badwolf.git'
+Plugin 'git://github.com/jonathanfilip/vim-lucius.git'
+Plugin 'kien/ctrlp.vim'
+Plugin 'pangloss/vim-javascript'
+Plugin 'rking/ag.vim'
+Plugin 'git://github.com/tpope/vim-surround.git'
+call vundle#end()
+filetype plugin indent on
+
 syntax on
 filetype on
 filetype plugin indent on
@@ -81,6 +82,8 @@ nnoremap <leader>e :Explore<CR>
 command! CopyFilepath !echo -n "%" | pbcopy
 nnoremap <leader>f :CopyFilepath<CR>
 vnoremap <leader>c :w !pbcopy<CR>
+
+vnoremap <leader>c :!pbcopy<CR>u
 
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
