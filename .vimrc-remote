@@ -5,6 +5,9 @@ filetype plugin indent on
 syntax on
 filetype on
 
+set wildmenu
+set wildignore
+
 set clipboard=unnamed
 set pastetoggle=<F2>
 
