@@ -36,10 +36,6 @@ autocmd Filetype python setlocal ts=4 sw=4 expandtab
 
 noremap j gj
 noremap k gk
-nnoremap <C-j> <c-w>j
-nnoremap <C-k> <c-w>k
-nnoremap <C-h> <c-w>h
-nnoremap <C-l> <c-w>l
 
 noremap n nzz
 
