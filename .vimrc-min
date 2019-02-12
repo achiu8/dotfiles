@@ -6,16 +6,12 @@ syntax on
 filetype on
 
 set wildmenu
-set wildignore
+set wildignorecase
 
 set clipboard=unnamed
 set pastetoggle=<F2>
 
 set noswapfile
-
-set guifont=Menlo:h13
-
-set background=dark
 
 set hlsearch
 set incsearch
@@ -30,9 +26,6 @@ set ts=2 sw=2 expandtab
 set tw=120
 
 set laststatus=2
-
-autocmd Filetype php setlocal ts=4 sw=4 expandtab
-autocmd Filetype python setlocal ts=4 sw=4 expandtab
 
 noremap j gj
 noremap k gk
@@ -61,6 +54,4 @@ nnoremap <leader>e :Explore<CR>
 
 command! CopyFilepath !echo -n "%" | pbcopy
 nnoremap <leader>f :CopyFilepath<CR>
-vnoremap <leader>c :w !pbcopy<CR>
-
 vnoremap <leader>c :!pbcopy<CR>u
